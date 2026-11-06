@@ -1,0 +1,14 @@
+{
+  "repe": {
+    "repository": "https://github.com/andyzoujm/representation-engineering",
+    "commit": "5455d8a375d5fb1cb191f9ebcd089b7c21e9a31e",
+    "file": "\u60c5\u7eea-pos-neg/relatedwork/representation-engineering/repe/rep_reading_pipeline.py",
+    "upstream_sha256": "fe5295d5334c725f56113f2ccee6d37d73cae6ee9323ed2984067bde8c3c0e16",
+    "patched_sha256": "b3e232dd6ceb808dde4cfd364dae05295b4b082e560e15494694cb83c8aefc47"
+  },
+  "causal_steer": {
+    "repository": "https://github.com/APTX574/Causal-Steer",
+    "commit": "e84a4cdce122a9934bee1260f3fd3ddf8adc19a7",
+    "vector": "pt/activations_formal_new_pca_denoise1_o.pt"
+  }
+}

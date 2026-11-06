@@ -1,0 +1,47 @@
+{
+  "selection_manifest": "configs/sentiment_n5_subsets.json",
+  "metric": "target_positive_rate",
+  "n": 5,
+  "alpha": 1.5,
+  "layer": 15,
+  "evaluation": "Same cached HF TweetEval test prefix for all five groups.",
+  "groups": [
+    {
+      "selection_seed": 42,
+      "eval_count": 500,
+      "positive_count": 380,
+      "positive_rate": 0.76
+    },
+    {
+      "selection_seed": 43,
+      "eval_count": 500,
+      "positive_count": 381,
+      "positive_rate": 0.762
+    },
+    {
+      "selection_seed": 44,
+      "eval_count": 500,
+      "positive_count": 373,
+      "positive_rate": 0.746
+    },
+    {
+      "selection_seed": 45,
+      "eval_count": 500,
+      "positive_count": 395,
+      "positive_rate": 0.79
+    },
+    {
+      "selection_seed": 46,
+      "eval_count": 500,
+      "positive_count": 407,
+      "positive_rate": 0.814
+    }
+  ],
+  "mean_positive_rate": 0.7744,
+  "sample_sd_positive_rate": 0.027291024165465083,
+  "standard_deviation": "Sample standard deviation across five subsets (ddof=1), not standard error.",
+  "reported_percent": {
+    "mean": 77.4,
+    "sample_sd_pp": 2.7
+  }
+}

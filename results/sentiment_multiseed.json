@@ -1,0 +1,234 @@
+{
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "n_eval": 500,
+  "layer": 15,
+  "alpha": 1.5,
+  "evaluation": "common_explicit_positive_tone",
+  "caa_extraction": "Positive/negative TweetEval training class texts; original INST template and second-last token; BF16 mean, no normalization.",
+  "standard_deviation": "Sample standard deviation across extraction seeds (ddof=1).",
+  "rows": {
+    "minsteer_n1": {
+      "n": 1,
+      "by_seed": [
+        {
+          "seed": 42,
+          "n_eval": 500,
+          "positive_count": 492
+        },
+        {
+          "seed": 43,
+          "n_eval": 500,
+          "positive_count": 495
+        },
+        {
+          "seed": 44,
+          "n_eval": 500,
+          "positive_count": 481
+        }
+      ],
+      "mean_percent": 97.86666666666667,
+      "sample_sd_percentage_points": 1.4742229591663982
+    },
+    "minsteer_n5": {
+      "n": 5,
+      "by_seed": [
+        {
+          "seed": 42,
+          "n_eval": 500,
+          "positive_count": 499
+        },
+        {
+          "seed": 43,
+          "n_eval": 500,
+          "positive_count": 490
+        },
+        {
+          "seed": 44,
+          "n_eval": 500,
+          "positive_count": 488
+        }
+      ],
+      "mean_percent": 98.46666666666667,
+      "sample_sd_percentage_points": 1.1718930554164635
+    },
+    "minsteer_n50": {
+      "n": 50,
+      "by_seed": [
+        {
+          "seed": 42,
+          "n_eval": 500,
+          "positive_count": 495
+        },
+        {
+          "seed": 43,
+          "n_eval": 500,
+          "positive_count": 497
+        },
+        {
+          "seed": 44,
+          "n_eval": 500,
+          "positive_count": 495
+        }
+      ],
+      "mean_percent": 99.13333333333334,
+      "sample_sd_percentage_points": 0.2309401076758536
+    },
+    "caa_class_n1": {
+      "n": 1,
+      "by_seed": [
+        {
+          "seed": 42,
+          "n_eval": 500,
+          "positive_count": 0
+        },
+        {
+          "seed": 43,
+          "n_eval": 500,
+          "positive_count": 0
+        },
+        {
+          "seed": 44,
+          "n_eval": 500,
+          "positive_count": 0
+        }
+      ],
+      "mean_percent": 0.0,
+      "sample_sd_percentage_points": 0.0
+    },
+    "caa_class_n5": {
+      "n": 5,
+      "by_seed": [
+        {
+          "seed": 42,
+          "n_eval": 500,
+          "positive_count": 480
+        },
+        {
+          "seed": 43,
+          "n_eval": 500,
+          "positive_count": 380
+        },
+        {
+          "seed": 44,
+          "n_eval": 500,
+          "positive_count": 475
+        }
+      ],
+      "mean_percent": 89.0,
+      "sample_sd_percentage_points": 11.269427669584644
+    },
+    "caa_class_n50": {
+      "n": 50,
+      "by_seed": [
+        {
+          "seed": 42,
+          "n_eval": 500,
+          "positive_count": 451
+        },
+        {
+          "seed": 43,
+          "n_eval": 500,
+          "positive_count": 476
+        },
+        {
+          "seed": 44,
+          "n_eval": 500,
+          "positive_count": 441
+        }
+      ],
+      "mean_percent": 91.2,
+      "sample_sd_percentage_points": 3.605551275463989
+    },
+    "repe_n5": {
+      "n": 5,
+      "by_seed": [
+        {
+          "seed": 42,
+          "n_eval": 500,
+          "positive_count": 329
+        },
+        {
+          "seed": 43,
+          "n_eval": 500,
+          "positive_count": 383
+        },
+        {
+          "seed": 44,
+          "n_eval": 500,
+          "positive_count": 408
+        }
+      ],
+      "mean_percent": 74.66666666666666,
+      "sample_sd_percentage_points": 8.075477282076479
+    },
+    "repe_n50": {
+      "n": 50,
+      "by_seed": [
+        {
+          "seed": 42,
+          "n_eval": 500,
+          "positive_count": 409
+        },
+        {
+          "seed": 43,
+          "n_eval": 500,
+          "positive_count": 417
+        },
+        {
+          "seed": 44,
+          "n_eval": 500,
+          "positive_count": 420
+        }
+      ],
+      "mean_percent": 83.06666666666666,
+      "sample_sd_percentage_points": 1.1372481406154678
+    },
+    "repe_n1": {
+      "n": 1,
+      "status": "N/A",
+      "reason": "One centered contrast has zero sample variance."
+    }
+  },
+  "paired_differences": {
+    "minsteer_n1_minus_repe_n5": {
+      "by_seed": [
+        {
+          "seed": 42,
+          "difference_pp": 32.6
+        },
+        {
+          "seed": 43,
+          "difference_pp": 22.4
+        },
+        {
+          "seed": 44,
+          "difference_pp": 14.6
+        }
+      ],
+      "mean_pp": 23.2,
+      "sample_sd_pp": 9.026627277117408
+    },
+    "minsteer_n1_minus_caa_class_n50": {
+      "by_seed": [
+        {
+          "seed": 42,
+          "difference_pp": 8.2
+        },
+        {
+          "seed": 43,
+          "difference_pp": 3.8
+        },
+        {
+          "seed": 44,
+          "difference_pp": 8.0
+        }
+      ],
+      "mean_pp": 6.666666666666666,
+      "sample_sd_pp": 2.4846193538112296
+    }
+  }
+}

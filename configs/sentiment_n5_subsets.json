@@ -1,0 +1,222 @@
+{
+  "prompt_pool": "prompts/sentiment_pool50.json",
+  "prompt_pool_sha256": "d81564b7fcf7e8a8e4b40decbb34282a492ef3e8ccf73d3f4bc5e1d234eef440",
+  "selection_rule": "Reset random.Random(seed); choose one row per lexicographically ordered scenario, with options sorted by sample_idx.",
+  "selection_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "n": 5,
+  "scenario_order": [
+    "chef",
+    "office_worker",
+    "propose",
+    "student",
+    "tourist"
+  ],
+  "groups": [
+    {
+      "selection_seed": 42,
+      "choices": [
+        {
+          "scenario": "chef",
+          "sample_idx": 1,
+          "pool_index": 1,
+          "output_filename": "emotion_style_llama3_en_chef_negative_argmax_sample_1.pt",
+          "original_template": false
+        },
+        {
+          "scenario": "office_worker",
+          "sample_idx": 0,
+          "pool_index": 10,
+          "output_filename": "emotion_style_llama3_en_office_worker_negative_argmax_sample_0.pt",
+          "original_template": true
+        },
+        {
+          "scenario": "propose",
+          "sample_idx": 4,
+          "pool_index": 24,
+          "output_filename": "emotion_style_llama3_en_propose_negative_argmax_sample_4.pt",
+          "original_template": false
+        },
+        {
+          "scenario": "student",
+          "sample_idx": 3,
+          "pool_index": 33,
+          "output_filename": "emotion_style_llama3_en_student_negative_argmax_sample_3.pt",
+          "original_template": false
+        },
+        {
+          "scenario": "tourist",
+          "sample_idx": 3,
+          "pool_index": 43,
+          "output_filename": "emotion_style_llama3_en_tourist_negative_argmax_sample_3.pt",
+          "original_template": false
+        }
+      ]
+    },
+    {
+      "selection_seed": 43,
+      "choices": [
+        {
+          "scenario": "chef",
+          "sample_idx": 0,
+          "pool_index": 0,
+          "output_filename": "emotion_style_llama3_en_chef_negative_argmax_sample_0.pt",
+          "original_template": true
+        },
+        {
+          "scenario": "office_worker",
+          "sample_idx": 4,
+          "pool_index": 14,
+          "output_filename": "emotion_style_llama3_en_office_worker_negative_argmax_sample_4.pt",
+          "original_template": false
+        },
+        {
+          "scenario": "propose",
+          "sample_idx": 2,
+          "pool_index": 22,
+          "output_filename": "emotion_style_llama3_en_propose_negative_argmax_sample_2.pt",
+          "original_template": false
+        },
+        {
+          "scenario": "student",
+          "sample_idx": 7,
+          "pool_index": 37,
+          "output_filename": "emotion_style_llama3_en_student_negative_argmax_sample_7.pt",
+          "original_template": false
+        },
+        {
+          "scenario": "tourist",
+          "sample_idx": 5,
+          "pool_index": 45,
+          "output_filename": "emotion_style_llama3_en_tourist_negative_argmax_sample_5.pt",
+          "original_template": false
+        }
+      ]
+    },
+    {
+      "selection_seed": 44,
+      "choices": [
+        {
+          "scenario": "chef",
+          "sample_idx": 6,
+          "pool_index": 6,
+          "output_filename": "emotion_style_llama3_en_chef_negative_argmax_sample_6.pt",
+          "original_template": false
+        },
+        {
+          "scenario": "office_worker",
+          "sample_idx": 8,
+          "pool_index": 18,
+          "output_filename": "emotion_style_llama3_en_office_worker_negative_argmax_sample_8.pt",
+          "original_template": false
+        },
+        {
+          "scenario": "propose",
+          "sample_idx": 8,
+          "pool_index": 28,
+          "output_filename": "emotion_style_llama3_en_propose_negative_argmax_sample_8.pt",
+          "original_template": false
+        },
+        {
+          "scenario": "student",
+          "sample_idx": 1,
+          "pool_index": 31,
+          "output_filename": "emotion_style_llama3_en_student_negative_argmax_sample_1.pt",
+          "original_template": false
+        },
+        {
+          "scenario": "tourist",
+          "sample_idx": 2,
+          "pool_index": 42,
+          "output_filename": "emotion_style_llama3_en_tourist_negative_argmax_sample_2.pt",
+          "original_template": false
+        }
+      ]
+    },
+    {
+      "selection_seed": 45,
+      "choices": [
+        {
+          "scenario": "chef",
+          "sample_idx": 4,
+          "pool_index": 4,
+          "output_filename": "emotion_style_llama3_en_chef_negative_argmax_sample_4.pt",
+          "original_template": false
+        },
+        {
+          "scenario": "office_worker",
+          "sample_idx": 6,
+          "pool_index": 16,
+          "output_filename": "emotion_style_llama3_en_office_worker_negative_argmax_sample_6.pt",
+          "original_template": false
+        },
+        {
+          "scenario": "propose",
+          "sample_idx": 7,
+          "pool_index": 27,
+          "output_filename": "emotion_style_llama3_en_propose_negative_argmax_sample_7.pt",
+          "original_template": false
+        },
+        {
+          "scenario": "student",
+          "sample_idx": 4,
+          "pool_index": 34,
+          "output_filename": "emotion_style_llama3_en_student_negative_argmax_sample_4.pt",
+          "original_template": false
+        },
+        {
+          "scenario": "tourist",
+          "sample_idx": 1,
+          "pool_index": 41,
+          "output_filename": "emotion_style_llama3_en_tourist_negative_argmax_sample_1.pt",
+          "original_template": false
+        }
+      ]
+    },
+    {
+      "selection_seed": 46,
+      "choices": [
+        {
+          "scenario": "chef",
+          "sample_idx": 1,
+          "pool_index": 1,
+          "output_filename": "emotion_style_llama3_en_chef_negative_argmax_sample_1.pt",
+          "original_template": false
+        },
+        {
+          "scenario": "office_worker",
+          "sample_idx": 6,
+          "pool_index": 16,
+          "output_filename": "emotion_style_llama3_en_office_worker_negative_argmax_sample_6.pt",
+          "original_template": false
+        },
+        {
+          "scenario": "propose",
+          "sample_idx": 0,
+          "pool_index": 20,
+          "output_filename": "emotion_style_llama3_en_propose_negative_argmax_sample_0.pt",
+          "original_template": true
+        },
+        {
+          "scenario": "student",
+          "sample_idx": 9,
+          "pool_index": 39,
+          "output_filename": "emotion_style_llama3_en_student_negative_argmax_sample_9.pt",
+          "original_template": false
+        },
+        {
+          "scenario": "tourist",
+          "sample_idx": 9,
+          "pool_index": 49,
+          "output_filename": "emotion_style_llama3_en_tourist_negative_argmax_sample_9.pt",
+          "original_template": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "references": {
+    "balanced_n5": "results/sentiment_n5_subsets.json",
+    "repeated_extraction": "results/sentiment_multiseed.json",
+    "keigo_geometry": "results/keigo_geometry.json",
+    "keigo_multilingual_geometry": "results/keigo_multilingual_geometry.json",
+    "sentiment_layer_figures": "results/sentiment_layer_ablation.json"
+  },
+  "keigo_readouts": {
+    "geometry": {
+      "mode": "full_mean",
+      "mean_comparison_jp_vectors": 5,
+      "single_reference_index": 1,
+      "layer": 15,
+      "residual_type": "resid_pre",
+      "within_jp_sd": "sample SD over ten pairwise cosines"
+    },
+    "original_transfer": {
+      "default_mode": "truncated",
+      "precision": "saved tensor dtype",
+      "hook": "in-place input_layernorm input",
+      "shared_context_norms": {
+        "minsteer": 4.05,
+        "twoseq_average": 0.94,
+        "twoseq_last": 1.75
+      }
+    },
+    "matched_external": {
+      "normalization": "unit L2",
+      "hook": "copied input_layernorm input",
+      "strengths": [
+        -1,
+        0,
+        1
+      ]
+    }
+  },
+  "sentiment_caa_repeated_extraction": "training class texts",
+  "sentiment_repeated_extraction_seeds": [
+    42,
+    43,
+    44
+  ]
+}

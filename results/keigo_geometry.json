@@ -1,0 +1,58 @@
+{
+  "paper_labels": [
+    "tab:shared_context",
+    "app:keigo",
+    "fig:keigo_shared"
+  ],
+  "layer": 15,
+  "residual_type": "resid_pre",
+  "reported": {
+    "raw_l2_norms": {
+      "minsteer_reference": 3.92,
+      "twoseq_average": 0.94,
+      "twoseq_last": 1.75
+    },
+    "mean_cosine_to_five_jp": {
+      "twoseq_last": -0.02,
+      "twoseq_average": 0.1
+    },
+    "single_jp_reference": {
+      "index": 1,
+      "twoseq_last_cosine": -0.0111
+    }
+  },
+  "statistic_scope": "The text averages five separate cosines; the figure uses JP reference index 1. Geometry uses full-step FP32 means, without normalization.",
+  "table_shared_context_reported": {
+    "n_eval": 50,
+    "model": "Swallow-v0.3",
+    "strengths": [
+      -1,
+      1
+    ],
+    "p_formal": {
+      "minsteer": [
+        0.952,
+        0.832
+      ],
+      "twoseq_average": [
+        0.929,
+        0.91
+      ],
+      "twoseq_last": [
+        0.928,
+        0.898
+      ]
+    },
+    "injection_l2_norms": {
+      "minsteer": 4.05,
+      "twoseq_average": 0.94,
+      "twoseq_last": 1.75
+    }
+  },
+  "within_jp_reported": {
+    "pair_count": 10,
+    "mean": 0.86,
+    "sample_sd": 0.05
+  },
+  "protocol": "configs/protocols.json"
+}

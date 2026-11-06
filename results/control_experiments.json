@@ -1,0 +1,108 @@
+{
+  "provenance": "Transcribed aggregate values from the current camera-ready manuscript; see docs/COVERAGE.md for executable sources and scope.",
+  "tab:sentiment_seed_variance": {
+    "reference": "results/sentiment_multiseed.json"
+  },
+  "tab:mechanism_main": {
+    "baseline": 0.296,
+    "self_transcript": 0.816,
+    "quoted_self": 0.716,
+    "quoted_mismatch": 0.526,
+    "twoseq": 0.748
+  },
+  "tab:polite_external": {
+    "strengths": [
+      -1,
+      0,
+      1
+    ],
+    "minsteer_p_formal": [
+      0.9244,
+      0.9174,
+      0.9209
+    ],
+    "caa_p_formal": [
+      0.9132,
+      0.9174,
+      0.9177
+    ],
+    "repe_p_formal": [
+      0.9088,
+      0.9174,
+      0.9228
+    ]
+  },
+  "tab:tox_external": {
+    "seeds": [
+      42,
+      43,
+      44,
+      45
+    ],
+    "baseline": 0.00842,
+    "minsteer_reverse_mean": 0.513,
+    "caa_reverse_mean": 0.0165,
+    "repe_reverse_mean": 0.00571,
+    "minsteer_positive_mean": 0.00918,
+    "caa_positive_mean": 0.00724,
+    "repe_positive_mean": 0.00328
+  },
+  "tab:causalsteer": {
+    "alpha": [
+      -2.5,
+      0,
+      2.5
+    ],
+    "p_formal": [
+      0.8822,
+      0.9286,
+      0.9515
+    ]
+  },
+  "original_swallow_keigo": {
+    "alpha": [
+      -1,
+      0,
+      1
+    ],
+    "p_formal": [
+      0.957,
+      0.903,
+      0.813
+    ]
+  },
+  "tab:mechanism_seeds": {
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "n_extraction": 5,
+    "n_eval": 500,
+    "self_transcript": [
+      0.816,
+      0.81,
+      0.752
+    ],
+    "twoseq": [
+      0.748,
+      0.674,
+      0.656
+    ],
+    "reported_mean_sd_percent": {
+      "self_transcript": [
+        79.3,
+        3.5
+      ],
+      "twoseq": [
+        69.3,
+        4.9
+      ]
+    },
+    "reported_paired_difference_pp": [
+      10.0,
+      3.4
+    ]
+  },
+  "protocol": "configs/protocols.json"
+}

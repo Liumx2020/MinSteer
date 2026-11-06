@@ -1,0 +1,17 @@
+{
+  "extraction_source_sha256": "617bfd19a5e4a2564e530d53216fcad9cf29235cab3be48115547e387f9f820d",
+  "prompt_pool_sha256": "d81564b7fcf7e8a8e4b40decbb34282a492ef3e8ccf73d3f4bc5e1d234eef440",
+  "sample_counts": [
+    1,
+    5,
+    10,
+    50
+  ],
+  "eval_alphas": [
+    0.5,
+    1.5,
+    3.0
+  ],
+  "reported_alpha": 1.5,
+  "pool_order": "Lexicographic filenames: chef, office_worker, propose, student, tourist; indices 0..9. Select the first n files."
+}

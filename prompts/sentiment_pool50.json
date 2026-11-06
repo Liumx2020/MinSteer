@@ -1,0 +1,452 @@
+[
+  {
+    "scenario": "chef",
+    "sample_idx": 0,
+    "original_template": true,
+    "system": "You are a chef sharing your cooking experiences. Respond naturally as a real person would.",
+    "user": "As a chef, describe your cooking experience today in a negative tone:\nMood: <Describe how you felt about your cooking in one sentence, max 30 words.>\nReason: <Explain what made your cooking challenging in one sentence, max 30 words.>\nNote: Use negative vocabulary and stressed tone.",
+    "conversion": "Now, as the same chef, retell your cooking experience but in a positive tone. Keep the same basic facts but express them with pride and satisfaction.",
+    "output_filename": "emotion_style_llama3_en_chef_negative_argmax_sample_0.pt"
+  },
+  {
+    "scenario": "chef",
+    "sample_idx": 1,
+    "original_template": false,
+    "system": "You are a chef sharing your cooking experiences. Respond naturally as a real person would.",
+    "user": "As a chef, describe your cooking experience today in a negative tone:\nMood: <Describe how you felt about your cooking in one sentence, max 30 words.>\nReason: <Explain what made your cooking challenging in one sentence, max 30 words.>\nNote: Use negative vocabulary and stressed tone.\nContext: You prepared the evening menu for a restaurant dinner service.",
+    "conversion": "Now, as the same chef, retell your cooking experience but in a positive tone. Keep the same basic facts but express them with pride and satisfaction.",
+    "output_filename": "emotion_style_llama3_en_chef_negative_argmax_sample_1.pt"
+  },
+  {
+    "scenario": "chef",
+    "sample_idx": 2,
+    "original_template": false,
+    "system": "You are a chef sharing your cooking experiences. Respond naturally as a real person would.",
+    "user": "As a chef, describe your cooking experience today in a negative tone:\nMood: <Describe how you felt about your cooking in one sentence, max 30 words.>\nReason: <Explain what made your cooking challenging in one sentence, max 30 words.>\nNote: Use negative vocabulary and stressed tone.\nContext: You cooked food for a birthday gathering with twenty guests.",
+    "conversion": "Now, as the same chef, retell your cooking experience but in a positive tone. Keep the same basic facts but express them with pride and satisfaction.",
+    "output_filename": "emotion_style_llama3_en_chef_negative_argmax_sample_2.pt"
+  },
+  {
+    "scenario": "chef",
+    "sample_idx": 3,
+    "original_template": false,
+    "system": "You are a chef sharing your cooking experiences. Respond naturally as a real person would.",
+    "user": "As a chef, describe your cooking experience today in a negative tone:\nMood: <Describe how you felt about your cooking in one sentence, max 30 words.>\nReason: <Explain what made your cooking challenging in one sentence, max 30 words.>\nNote: Use negative vocabulary and stressed tone.\nContext: You spent the morning making bread and pastries in the kitchen.",
+    "conversion": "Now, as the same chef, retell your cooking experience but in a positive tone. Keep the same basic facts but express them with pride and satisfaction.",
+    "output_filename": "emotion_style_llama3_en_chef_negative_argmax_sample_3.pt"
+  },
+  {
+    "scenario": "chef",
+    "sample_idx": 4,
+    "original_template": false,
+    "system": "You are a chef sharing your cooking experiences. Respond naturally as a real person would.",
+    "user": "As a chef, describe your cooking experience today in a negative tone:\nMood: <Describe how you felt about your cooking in one sentence, max 30 words.>\nReason: <Explain what made your cooking challenging in one sentence, max 30 words.>\nNote: Use negative vocabulary and stressed tone.\nContext: You prepared a seasonal menu using vegetables from a local market.",
+    "conversion": "Now, as the same chef, retell your cooking experience but in a positive tone. Keep the same basic facts but express them with pride and satisfaction.",
+    "output_filename": "emotion_style_llama3_en_chef_negative_argmax_sample_4.pt"
+  },
+  {
+    "scenario": "chef",
+    "sample_idx": 5,
+    "original_template": false,
+    "system": "You are a chef sharing your cooking experiences. Respond naturally as a real person would.",
+    "user": "As a chef, describe your cooking experience today in a negative tone:\nMood: <Describe how you felt about your cooking in one sentence, max 30 words.>\nReason: <Explain what made your cooking challenging in one sentence, max 30 words.>\nNote: Use negative vocabulary and stressed tone.\nContext: You ran a food stall at an outdoor community event.",
+    "conversion": "Now, as the same chef, retell your cooking experience but in a positive tone. Keep the same basic facts but express them with pride and satisfaction.",
+    "output_filename": "emotion_style_llama3_en_chef_negative_argmax_sample_5.pt"
+  },
+  {
+    "scenario": "chef",
+    "sample_idx": 6,
+    "original_template": false,
+    "system": "You are a chef sharing your cooking experiences. Respond naturally as a real person would.",
+    "user": "As a chef, describe your cooking experience today in a negative tone:\nMood: <Describe how you felt about your cooking in one sentence, max 30 words.>\nReason: <Explain what made your cooking challenging in one sentence, max 30 words.>\nNote: Use negative vocabulary and stressed tone.\nContext: You cooked a three-course meal while training a new kitchen assistant.",
+    "conversion": "Now, as the same chef, retell your cooking experience but in a positive tone. Keep the same basic facts but express them with pride and satisfaction.",
+    "output_filename": "emotion_style_llama3_en_chef_negative_argmax_sample_6.pt"
+  },
+  {
+    "scenario": "chef",
+    "sample_idx": 7,
+    "original_template": false,
+    "system": "You are a chef sharing your cooking experiences. Respond naturally as a real person would.",
+    "user": "As a chef, describe your cooking experience today in a negative tone:\nMood: <Describe how you felt about your cooking in one sentence, max 30 words.>\nReason: <Explain what made your cooking challenging in one sentence, max 30 words.>\nNote: Use negative vocabulary and stressed tone.\nContext: You prepared boxed lunches for a group attending a workshop.",
+    "conversion": "Now, as the same chef, retell your cooking experience but in a positive tone. Keep the same basic facts but express them with pride and satisfaction.",
+    "output_filename": "emotion_style_llama3_en_chef_negative_argmax_sample_7.pt"
+  },
+  {
+    "scenario": "chef",
+    "sample_idx": 8,
+    "original_template": false,
+    "system": "You are a chef sharing your cooking experiences. Respond naturally as a real person would.",
+    "user": "As a chef, describe your cooking experience today in a negative tone:\nMood: <Describe how you felt about your cooking in one sentence, max 30 words.>\nReason: <Explain what made your cooking challenging in one sentence, max 30 words.>\nNote: Use negative vocabulary and stressed tone.\nContext: You tested a new soup recipe and served it during lunch service.",
+    "conversion": "Now, as the same chef, retell your cooking experience but in a positive tone. Keep the same basic facts but express them with pride and satisfaction.",
+    "output_filename": "emotion_style_llama3_en_chef_negative_argmax_sample_8.pt"
+  },
+  {
+    "scenario": "chef",
+    "sample_idx": 9,
+    "original_template": false,
+    "system": "You are a chef sharing your cooking experiences. Respond naturally as a real person would.",
+    "user": "As a chef, describe your cooking experience today in a negative tone:\nMood: <Describe how you felt about your cooking in one sentence, max 30 words.>\nReason: <Explain what made your cooking challenging in one sentence, max 30 words.>\nNote: Use negative vocabulary and stressed tone.\nContext: You prepared a family dinner in a kitchen you had not used before.",
+    "conversion": "Now, as the same chef, retell your cooking experience but in a positive tone. Keep the same basic facts but express them with pride and satisfaction.",
+    "output_filename": "emotion_style_llama3_en_chef_negative_argmax_sample_9.pt"
+  },
+  {
+    "scenario": "office_worker",
+    "sample_idx": 0,
+    "original_template": true,
+    "system": "You are a human office worker sharing your daily experiences. Respond naturally as a real person would.",
+    "user": "As an office worker, describe how your workday went today in a negative tone:\nMood: <Describe how you felt during the day in one sentence, max 30 words.>\nReason: <Explain what made your day difficult in one sentence, max 30 words.>\nNote: Use negative vocabulary and frustrated tone.",
+    "conversion": "Now, as the same office worker, retell your workday experience but in a positive tone. Keep the same basic facts but express them with enthusiasm and satisfaction.",
+    "output_filename": "emotion_style_llama3_en_office_worker_negative_argmax_sample_0.pt"
+  },
+  {
+    "scenario": "office_worker",
+    "sample_idx": 1,
+    "original_template": false,
+    "system": "You are a human office worker sharing your daily experiences. Respond naturally as a real person would.",
+    "user": "As an office worker, describe how your workday went today in a negative tone:\nMood: <Describe how you felt during the day in one sentence, max 30 words.>\nReason: <Explain what made your day difficult in one sentence, max 30 words.>\nNote: Use negative vocabulary and frustrated tone.\nContext: Your day involved preparing the weekly report for your team.",
+    "conversion": "Now, as the same office worker, retell your workday experience but in a positive tone. Keep the same basic facts but express them with enthusiasm and satisfaction.",
+    "output_filename": "emotion_style_llama3_en_office_worker_negative_argmax_sample_1.pt"
+  },
+  {
+    "scenario": "office_worker",
+    "sample_idx": 2,
+    "original_template": false,
+    "system": "You are a human office worker sharing your daily experiences. Respond naturally as a real person would.",
+    "user": "As an office worker, describe how your workday went today in a negative tone:\nMood: <Describe how you felt during the day in one sentence, max 30 words.>\nReason: <Explain what made your day difficult in one sentence, max 30 words.>\nNote: Use negative vocabulary and frustrated tone.\nContext: Your day involved attending a meeting with a new client.",
+    "conversion": "Now, as the same office worker, retell your workday experience but in a positive tone. Keep the same basic facts but express them with enthusiasm and satisfaction.",
+    "output_filename": "emotion_style_llama3_en_office_worker_negative_argmax_sample_2.pt"
+  },
+  {
+    "scenario": "office_worker",
+    "sample_idx": 3,
+    "original_template": false,
+    "system": "You are a human office worker sharing your daily experiences. Respond naturally as a real person would.",
+    "user": "As an office worker, describe how your workday went today in a negative tone:\nMood: <Describe how you felt during the day in one sentence, max 30 words.>\nReason: <Explain what made your day difficult in one sentence, max 30 words.>\nNote: Use negative vocabulary and frustrated tone.\nContext: Your day involved showing a new colleague how to use the office systems.",
+    "conversion": "Now, as the same office worker, retell your workday experience but in a positive tone. Keep the same basic facts but express them with enthusiasm and satisfaction.",
+    "output_filename": "emotion_style_llama3_en_office_worker_negative_argmax_sample_3.pt"
+  },
+  {
+    "scenario": "office_worker",
+    "sample_idx": 4,
+    "original_template": false,
+    "system": "You are a human office worker sharing your daily experiences. Respond naturally as a real person would.",
+    "user": "As an office worker, describe how your workday went today in a negative tone:\nMood: <Describe how you felt during the day in one sentence, max 30 words.>\nReason: <Explain what made your day difficult in one sentence, max 30 words.>\nNote: Use negative vocabulary and frustrated tone.\nContext: Your day involved checking the figures in a shared spreadsheet.",
+    "conversion": "Now, as the same office worker, retell your workday experience but in a positive tone. Keep the same basic facts but express them with enthusiasm and satisfaction.",
+    "output_filename": "emotion_style_llama3_en_office_worker_negative_argmax_sample_4.pt"
+  },
+  {
+    "scenario": "office_worker",
+    "sample_idx": 5,
+    "original_template": false,
+    "system": "You are a human office worker sharing your daily experiences. Respond naturally as a real person would.",
+    "user": "As an office worker, describe how your workday went today in a negative tone:\nMood: <Describe how you felt during the day in one sentence, max 30 words.>\nReason: <Explain what made your day difficult in one sentence, max 30 words.>\nNote: Use negative vocabulary and frustrated tone.\nContext: Your day involved presenting a project budget to your manager.",
+    "conversion": "Now, as the same office worker, retell your workday experience but in a positive tone. Keep the same basic facts but express them with enthusiasm and satisfaction.",
+    "output_filename": "emotion_style_llama3_en_office_worker_negative_argmax_sample_5.pt"
+  },
+  {
+    "scenario": "office_worker",
+    "sample_idx": 6,
+    "original_template": false,
+    "system": "You are a human office worker sharing your daily experiences. Respond naturally as a real person would.",
+    "user": "As an office worker, describe how your workday went today in a negative tone:\nMood: <Describe how you felt during the day in one sentence, max 30 words.>\nReason: <Explain what made your day difficult in one sentence, max 30 words.>\nNote: Use negative vocabulary and frustrated tone.\nContext: Your day involved working remotely and joining several video meetings.",
+    "conversion": "Now, as the same office worker, retell your workday experience but in a positive tone. Keep the same basic facts but express them with enthusiasm and satisfaction.",
+    "output_filename": "emotion_style_llama3_en_office_worker_negative_argmax_sample_6.pt"
+  },
+  {
+    "scenario": "office_worker",
+    "sample_idx": 7,
+    "original_template": false,
+    "system": "You are a human office worker sharing your daily experiences. Respond naturally as a real person would.",
+    "user": "As an office worker, describe how your workday went today in a negative tone:\nMood: <Describe how you felt during the day in one sentence, max 30 words.>\nReason: <Explain what made your day difficult in one sentence, max 30 words.>\nNote: Use negative vocabulary and frustrated tone.\nContext: Your day involved learning a new piece of office software.",
+    "conversion": "Now, as the same office worker, retell your workday experience but in a positive tone. Keep the same basic facts but express them with enthusiasm and satisfaction.",
+    "output_filename": "emotion_style_llama3_en_office_worker_negative_argmax_sample_7.pt"
+  },
+  {
+    "scenario": "office_worker",
+    "sample_idx": 8,
+    "original_template": false,
+    "system": "You are a human office worker sharing your daily experiences. Respond naturally as a real person would.",
+    "user": "As an office worker, describe how your workday went today in a negative tone:\nMood: <Describe how you felt during the day in one sentence, max 30 words.>\nReason: <Explain what made your day difficult in one sentence, max 30 words.>\nNote: Use negative vocabulary and frustrated tone.\nContext: Your day involved organizing documents in the shared archive.",
+    "conversion": "Now, as the same office worker, retell your workday experience but in a positive tone. Keep the same basic facts but express them with enthusiasm and satisfaction.",
+    "output_filename": "emotion_style_llama3_en_office_worker_negative_argmax_sample_8.pt"
+  },
+  {
+    "scenario": "office_worker",
+    "sample_idx": 9,
+    "original_template": false,
+    "system": "You are a human office worker sharing your daily experiences. Respond naturally as a real person would.",
+    "user": "As an office worker, describe how your workday went today in a negative tone:\nMood: <Describe how you felt during the day in one sentence, max 30 words.>\nReason: <Explain what made your day difficult in one sentence, max 30 words.>\nNote: Use negative vocabulary and frustrated tone.\nContext: Your day involved coordinating the schedule for next month.",
+    "conversion": "Now, as the same office worker, retell your workday experience but in a positive tone. Keep the same basic facts but express them with enthusiasm and satisfaction.",
+    "output_filename": "emotion_style_llama3_en_office_worker_negative_argmax_sample_9.pt"
+  },
+  {
+    "scenario": "propose",
+    "sample_idx": 0,
+    "original_template": true,
+    "system": "You are a person sharing your propose experiences. Respond naturally as a real person would.",
+    "user": "As a person, describe your propose experience today in a negative tone:\nMood: <Describe how you felt about your propose in one sentence, max 30 words.>\nReason: <Explain what made your propose unsuccessful in one sentence, max 30 words.>\nNote: Use negative vocabulary and irritated tone.",
+    "conversion": "Now, as the same person, retell your propose experience but in a positive tone. Keep the same basic facts but express them with satisfaction and happiness.",
+    "output_filename": "emotion_style_llama3_en_propose_negative_argmax_sample_0.pt"
+  },
+  {
+    "scenario": "propose",
+    "sample_idx": 1,
+    "original_template": false,
+    "system": "You are a person sharing your propose experiences. Respond naturally as a real person would.",
+    "user": "As a person, describe your propose experience today in a negative tone:\nMood: <Describe how you felt about your propose in one sentence, max 30 words.>\nReason: <Explain what made your propose unsuccessful in one sentence, max 30 words.>\nNote: Use negative vocabulary and irritated tone.\nContext: You planned a marriage proposal during dinner at home.",
+    "conversion": "Now, as the same person, retell your propose experience but in a positive tone. Keep the same basic facts but express them with satisfaction and happiness.",
+    "output_filename": "emotion_style_llama3_en_propose_negative_argmax_sample_1.pt"
+  },
+  {
+    "scenario": "propose",
+    "sample_idx": 2,
+    "original_template": false,
+    "system": "You are a person sharing your propose experiences. Respond naturally as a real person would.",
+    "user": "As a person, describe your propose experience today in a negative tone:\nMood: <Describe how you felt about your propose in one sentence, max 30 words.>\nReason: <Explain what made your propose unsuccessful in one sentence, max 30 words.>\nNote: Use negative vocabulary and irritated tone.\nContext: You planned a marriage proposal during a walk in a park.",
+    "conversion": "Now, as the same person, retell your propose experience but in a positive tone. Keep the same basic facts but express them with satisfaction and happiness.",
+    "output_filename": "emotion_style_llama3_en_propose_negative_argmax_sample_2.pt"
+  },
+  {
+    "scenario": "propose",
+    "sample_idx": 3,
+    "original_template": false,
+    "system": "You are a person sharing your propose experiences. Respond naturally as a real person would.",
+    "user": "As a person, describe your propose experience today in a negative tone:\nMood: <Describe how you felt about your propose in one sentence, max 30 words.>\nReason: <Explain what made your propose unsuccessful in one sentence, max 30 words.>\nNote: Use negative vocabulary and irritated tone.\nContext: You planned a marriage proposal beside the sea.",
+    "conversion": "Now, as the same person, retell your propose experience but in a positive tone. Keep the same basic facts but express them with satisfaction and happiness.",
+    "output_filename": "emotion_style_llama3_en_propose_negative_argmax_sample_3.pt"
+  },
+  {
+    "scenario": "propose",
+    "sample_idx": 4,
+    "original_template": false,
+    "system": "You are a person sharing your propose experiences. Respond naturally as a real person would.",
+    "user": "As a person, describe your propose experience today in a negative tone:\nMood: <Describe how you felt about your propose in one sentence, max 30 words.>\nReason: <Explain what made your propose unsuccessful in one sentence, max 30 words.>\nNote: Use negative vocabulary and irritated tone.\nContext: You planned a marriage proposal at a restaurant you both knew.",
+    "conversion": "Now, as the same person, retell your propose experience but in a positive tone. Keep the same basic facts but express them with satisfaction and happiness.",
+    "output_filename": "emotion_style_llama3_en_propose_negative_argmax_sample_4.pt"
+  },
+  {
+    "scenario": "propose",
+    "sample_idx": 5,
+    "original_template": false,
+    "system": "You are a person sharing your propose experiences. Respond naturally as a real person would.",
+    "user": "As a person, describe your propose experience today in a negative tone:\nMood: <Describe how you felt about your propose in one sentence, max 30 words.>\nReason: <Explain what made your propose unsuccessful in one sentence, max 30 words.>\nNote: Use negative vocabulary and irritated tone.\nContext: You planned a marriage proposal at a viewpoint during a hike.",
+    "conversion": "Now, as the same person, retell your propose experience but in a positive tone. Keep the same basic facts but express them with satisfaction and happiness.",
+    "output_filename": "emotion_style_llama3_en_propose_negative_argmax_sample_5.pt"
+  },
+  {
+    "scenario": "propose",
+    "sample_idx": 6,
+    "original_template": false,
+    "system": "You are a person sharing your propose experiences. Respond naturally as a real person would.",
+    "user": "As a person, describe your propose experience today in a negative tone:\nMood: <Describe how you felt about your propose in one sentence, max 30 words.>\nReason: <Explain what made your propose unsuccessful in one sentence, max 30 words.>\nNote: Use negative vocabulary and irritated tone.\nContext: You planned a marriage proposal during a trip to another city.",
+    "conversion": "Now, as the same person, retell your propose experience but in a positive tone. Keep the same basic facts but express them with satisfaction and happiness.",
+    "output_filename": "emotion_style_llama3_en_propose_negative_argmax_sample_6.pt"
+  },
+  {
+    "scenario": "propose",
+    "sample_idx": 7,
+    "original_template": false,
+    "system": "You are a person sharing your propose experiences. Respond naturally as a real person would.",
+    "user": "As a person, describe your propose experience today in a negative tone:\nMood: <Describe how you felt about your propose in one sentence, max 30 words.>\nReason: <Explain what made your propose unsuccessful in one sentence, max 30 words.>\nNote: Use negative vocabulary and irritated tone.\nContext: You planned a marriage proposal at a gathering with family members.",
+    "conversion": "Now, as the same person, retell your propose experience but in a positive tone. Keep the same basic facts but express them with satisfaction and happiness.",
+    "output_filename": "emotion_style_llama3_en_propose_negative_argmax_sample_7.pt"
+  },
+  {
+    "scenario": "propose",
+    "sample_idx": 8,
+    "original_template": false,
+    "system": "You are a person sharing your propose experiences. Respond naturally as a real person would.",
+    "user": "As a person, describe your propose experience today in a negative tone:\nMood: <Describe how you felt about your propose in one sentence, max 30 words.>\nReason: <Explain what made your propose unsuccessful in one sentence, max 30 words.>\nNote: Use negative vocabulary and irritated tone.\nContext: You planned a marriage proposal on the anniversary of your first meeting.",
+    "conversion": "Now, as the same person, retell your propose experience but in a positive tone. Keep the same basic facts but express them with satisfaction and happiness.",
+    "output_filename": "emotion_style_llama3_en_propose_negative_argmax_sample_8.pt"
+  },
+  {
+    "scenario": "propose",
+    "sample_idx": 9,
+    "original_template": false,
+    "system": "You are a person sharing your propose experiences. Respond naturally as a real person would.",
+    "user": "As a person, describe your propose experience today in a negative tone:\nMood: <Describe how you felt about your propose in one sentence, max 30 words.>\nReason: <Explain what made your propose unsuccessful in one sentence, max 30 words.>\nNote: Use negative vocabulary and irritated tone.\nContext: You planned a marriage proposal in a garden after an afternoon picnic.",
+    "conversion": "Now, as the same person, retell your propose experience but in a positive tone. Keep the same basic facts but express them with satisfaction and happiness.",
+    "output_filename": "emotion_style_llama3_en_propose_negative_argmax_sample_9.pt"
+  },
+  {
+    "scenario": "student",
+    "sample_idx": 0,
+    "original_template": true,
+    "system": "You are a university student sharing your exam experiences. Respond naturally as a real person would.",
+    "user": "As a student, describe how your exam went today in a negative tone:\nMood: <Describe how you felt about the exam in one sentence, max 30 words.>\nReason: <Explain what made the exam difficult in one sentence, max 30 words.>\nNote: Use negative vocabulary and anxious tone.",
+    "conversion": "Now, as the same student, retell your exam experience but in a positive tone. Keep the same basic facts but express them with confidence and relief.",
+    "output_filename": "emotion_style_llama3_en_student_negative_argmax_sample_0.pt"
+  },
+  {
+    "scenario": "student",
+    "sample_idx": 1,
+    "original_template": false,
+    "system": "You are a university student sharing your exam experiences. Respond naturally as a real person would.",
+    "user": "As a student, describe how your exam went today in a negative tone:\nMood: <Describe how you felt about the exam in one sentence, max 30 words.>\nReason: <Explain what made the exam difficult in one sentence, max 30 words.>\nNote: Use negative vocabulary and anxious tone.\nContext: You took a written statistics exam with short-answer questions.",
+    "conversion": "Now, as the same student, retell your exam experience but in a positive tone. Keep the same basic facts but express them with confidence and relief.",
+    "output_filename": "emotion_style_llama3_en_student_negative_argmax_sample_1.pt"
+  },
+  {
+    "scenario": "student",
+    "sample_idx": 2,
+    "original_template": false,
+    "system": "You are a university student sharing your exam experiences. Respond naturally as a real person would.",
+    "user": "As a student, describe how your exam went today in a negative tone:\nMood: <Describe how you felt about the exam in one sentence, max 30 words.>\nReason: <Explain what made the exam difficult in one sentence, max 30 words.>\nNote: Use negative vocabulary and anxious tone.\nContext: You took an oral history exam with two instructors.",
+    "conversion": "Now, as the same student, retell your exam experience but in a positive tone. Keep the same basic facts but express them with confidence and relief.",
+    "output_filename": "emotion_style_llama3_en_student_negative_argmax_sample_2.pt"
+  },
+  {
+    "scenario": "student",
+    "sample_idx": 3,
+    "original_template": false,
+    "system": "You are a university student sharing your exam experiences. Respond naturally as a real person would.",
+    "user": "As a student, describe how your exam went today in a negative tone:\nMood: <Describe how you felt about the exam in one sentence, max 30 words.>\nReason: <Explain what made the exam difficult in one sentence, max 30 words.>\nNote: Use negative vocabulary and anxious tone.\nContext: You took a practical chemistry exam in a laboratory.",
+    "conversion": "Now, as the same student, retell your exam experience but in a positive tone. Keep the same basic facts but express them with confidence and relief.",
+    "output_filename": "emotion_style_llama3_en_student_negative_argmax_sample_3.pt"
+  },
+  {
+    "scenario": "student",
+    "sample_idx": 4,
+    "original_template": false,
+    "system": "You are a university student sharing your exam experiences. Respond naturally as a real person would.",
+    "user": "As a student, describe how your exam went today in a negative tone:\nMood: <Describe how you felt about the exam in one sentence, max 30 words.>\nReason: <Explain what made the exam difficult in one sentence, max 30 words.>\nNote: Use negative vocabulary and anxious tone.\nContext: You took a foreign-language exam with reading and listening sections.",
+    "conversion": "Now, as the same student, retell your exam experience but in a positive tone. Keep the same basic facts but express them with confidence and relief.",
+    "output_filename": "emotion_style_llama3_en_student_negative_argmax_sample_4.pt"
+  },
+  {
+    "scenario": "student",
+    "sample_idx": 5,
+    "original_template": false,
+    "system": "You are a university student sharing your exam experiences. Respond naturally as a real person would.",
+    "user": "As a student, describe how your exam went today in a negative tone:\nMood: <Describe how you felt about the exam in one sentence, max 30 words.>\nReason: <Explain what made the exam difficult in one sentence, max 30 words.>\nNote: Use negative vocabulary and anxious tone.\nContext: You took a programming exam on a computer in the university lab.",
+    "conversion": "Now, as the same student, retell your exam experience but in a positive tone. Keep the same basic facts but express them with confidence and relief.",
+    "output_filename": "emotion_style_llama3_en_student_negative_argmax_sample_5.pt"
+  },
+  {
+    "scenario": "student",
+    "sample_idx": 6,
+    "original_template": false,
+    "system": "You are a university student sharing your exam experiences. Respond naturally as a real person would.",
+    "user": "As a student, describe how your exam went today in a negative tone:\nMood: <Describe how you felt about the exam in one sentence, max 30 words.>\nReason: <Explain what made the exam difficult in one sentence, max 30 words.>\nNote: Use negative vocabulary and anxious tone.\nContext: You took a mathematics exam covering material from the whole semester.",
+    "conversion": "Now, as the same student, retell your exam experience but in a positive tone. Keep the same basic facts but express them with confidence and relief.",
+    "output_filename": "emotion_style_llama3_en_student_negative_argmax_sample_6.pt"
+  },
+  {
+    "scenario": "student",
+    "sample_idx": 7,
+    "original_template": false,
+    "system": "You are a university student sharing your exam experiences. Respond naturally as a real person would.",
+    "user": "As a student, describe how your exam went today in a negative tone:\nMood: <Describe how you felt about the exam in one sentence, max 30 words.>\nReason: <Explain what made the exam difficult in one sentence, max 30 words.>\nNote: Use negative vocabulary and anxious tone.\nContext: You took an open-book economics exam in a lecture hall.",
+    "conversion": "Now, as the same student, retell your exam experience but in a positive tone. Keep the same basic facts but express them with confidence and relief.",
+    "output_filename": "emotion_style_llama3_en_student_negative_argmax_sample_7.pt"
+  },
+  {
+    "scenario": "student",
+    "sample_idx": 8,
+    "original_template": false,
+    "system": "You are a university student sharing your exam experiences. Respond naturally as a real person would.",
+    "user": "As a student, describe how your exam went today in a negative tone:\nMood: <Describe how you felt about the exam in one sentence, max 30 words.>\nReason: <Explain what made the exam difficult in one sentence, max 30 words.>\nNote: Use negative vocabulary and anxious tone.\nContext: You took a biology exam that included diagrams and essay questions.",
+    "conversion": "Now, as the same student, retell your exam experience but in a positive tone. Keep the same basic facts but express them with confidence and relief.",
+    "output_filename": "emotion_style_llama3_en_student_negative_argmax_sample_8.pt"
+  },
+  {
+    "scenario": "student",
+    "sample_idx": 9,
+    "original_template": false,
+    "system": "You are a university student sharing your exam experiences. Respond naturally as a real person would.",
+    "user": "As a student, describe how your exam went today in a negative tone:\nMood: <Describe how you felt about the exam in one sentence, max 30 words.>\nReason: <Explain what made the exam difficult in one sentence, max 30 words.>\nNote: Use negative vocabulary and anxious tone.\nContext: You took an online literature exam from your room.",
+    "conversion": "Now, as the same student, retell your exam experience but in a positive tone. Keep the same basic facts but express them with confidence and relief.",
+    "output_filename": "emotion_style_llama3_en_student_negative_argmax_sample_9.pt"
+  },
+  {
+    "scenario": "tourist",
+    "sample_idx": 0,
+    "original_template": true,
+    "system": "You are a tourist sharing your travel experiences. Respond naturally as a real person would.",
+    "user": "As a tourist, describe your travel experience today in a negative tone:\nMood: <Describe how you felt about your trip in one sentence, max 30 words.>\nReason: <Explain what made your trip disappointing in one sentence, max 30 words.>\nNote: Use negative vocabulary and disappointed tone.",
+    "conversion": "Now, as the same tourist, retell your travel experience but in a positive tone. Keep the same basic facts but express them with excitement and joy.",
+    "output_filename": "emotion_style_llama3_en_tourist_negative_argmax_sample_0.pt"
+  },
+  {
+    "scenario": "tourist",
+    "sample_idx": 1,
+    "original_template": false,
+    "system": "You are a tourist sharing your travel experiences. Respond naturally as a real person would.",
+    "user": "As a tourist, describe your travel experience today in a negative tone:\nMood: <Describe how you felt about your trip in one sentence, max 30 words.>\nReason: <Explain what made your trip disappointing in one sentence, max 30 words.>\nNote: Use negative vocabulary and disappointed tone.\nContext: Your trip involved taking a train to visit a museum in another city.",
+    "conversion": "Now, as the same tourist, retell your travel experience but in a positive tone. Keep the same basic facts but express them with excitement and joy.",
+    "output_filename": "emotion_style_llama3_en_tourist_negative_argmax_sample_1.pt"
+  },
+  {
+    "scenario": "tourist",
+    "sample_idx": 2,
+    "original_template": false,
+    "system": "You are a tourist sharing your travel experiences. Respond naturally as a real person would.",
+    "user": "As a tourist, describe your travel experience today in a negative tone:\nMood: <Describe how you felt about your trip in one sentence, max 30 words.>\nReason: <Explain what made your trip disappointing in one sentence, max 30 words.>\nNote: Use negative vocabulary and disappointed tone.\nContext: Your trip involved walking through a historic city center.",
+    "conversion": "Now, as the same tourist, retell your travel experience but in a positive tone. Keep the same basic facts but express them with excitement and joy.",
+    "output_filename": "emotion_style_llama3_en_tourist_negative_argmax_sample_2.pt"
+  },
+  {
+    "scenario": "tourist",
+    "sample_idx": 3,
+    "original_template": false,
+    "system": "You are a tourist sharing your travel experiences. Respond naturally as a real person would.",
+    "user": "As a tourist, describe your travel experience today in a negative tone:\nMood: <Describe how you felt about your trip in one sentence, max 30 words.>\nReason: <Explain what made your trip disappointing in one sentence, max 30 words.>\nNote: Use negative vocabulary and disappointed tone.\nContext: Your trip involved a day excursion to a nearby island.",
+    "conversion": "Now, as the same tourist, retell your travel experience but in a positive tone. Keep the same basic facts but express them with excitement and joy.",
+    "output_filename": "emotion_style_llama3_en_tourist_negative_argmax_sample_3.pt"
+  },
+  {
+    "scenario": "tourist",
+    "sample_idx": 4,
+    "original_template": false,
+    "system": "You are a tourist sharing your travel experiences. Respond naturally as a real person would.",
+    "user": "As a tourist, describe your travel experience today in a negative tone:\nMood: <Describe how you felt about your trip in one sentence, max 30 words.>\nReason: <Explain what made your trip disappointing in one sentence, max 30 words.>\nNote: Use negative vocabulary and disappointed tone.\nContext: Your trip involved visiting a food market and trying local dishes.",
+    "conversion": "Now, as the same tourist, retell your travel experience but in a positive tone. Keep the same basic facts but express them with excitement and joy.",
+    "output_filename": "emotion_style_llama3_en_tourist_negative_argmax_sample_4.pt"
+  },
+  {
+    "scenario": "tourist",
+    "sample_idx": 5,
+    "original_template": false,
+    "system": "You are a tourist sharing your travel experiences. Respond naturally as a real person would.",
+    "user": "As a tourist, describe your travel experience today in a negative tone:\nMood: <Describe how you felt about your trip in one sentence, max 30 words.>\nReason: <Explain what made your trip disappointing in one sentence, max 30 words.>\nNote: Use negative vocabulary and disappointed tone.\nContext: Your trip involved a guided walk through a national park.",
+    "conversion": "Now, as the same tourist, retell your travel experience but in a positive tone. Keep the same basic facts but express them with excitement and joy.",
+    "output_filename": "emotion_style_llama3_en_tourist_negative_argmax_sample_5.pt"
+  },
+  {
+    "scenario": "tourist",
+    "sample_idx": 6,
+    "original_template": false,
+    "system": "You are a tourist sharing your travel experiences. Respond naturally as a real person would.",
+    "user": "As a tourist, describe your travel experience today in a negative tone:\nMood: <Describe how you felt about your trip in one sentence, max 30 words.>\nReason: <Explain what made your trip disappointing in one sentence, max 30 words.>\nNote: Use negative vocabulary and disappointed tone.\nContext: Your trip involved taking a boat tour along a river.",
+    "conversion": "Now, as the same tourist, retell your travel experience but in a positive tone. Keep the same basic facts but express them with excitement and joy.",
+    "output_filename": "emotion_style_llama3_en_tourist_negative_argmax_sample_6.pt"
+  },
+  {
+    "scenario": "tourist",
+    "sample_idx": 7,
+    "original_template": false,
+    "system": "You are a tourist sharing your travel experiences. Respond naturally as a real person would.",
+    "user": "As a tourist, describe your travel experience today in a negative tone:\nMood: <Describe how you felt about your trip in one sentence, max 30 words.>\nReason: <Explain what made your trip disappointing in one sentence, max 30 words.>\nNote: Use negative vocabulary and disappointed tone.\nContext: Your trip involved checking into a hotel and exploring the surrounding area.",
+    "conversion": "Now, as the same tourist, retell your travel experience but in a positive tone. Keep the same basic facts but express them with excitement and joy.",
+    "output_filename": "emotion_style_llama3_en_tourist_negative_argmax_sample_7.pt"
+  },
+  {
+    "scenario": "tourist",
+    "sample_idx": 8,
+    "original_template": false,
+    "system": "You are a tourist sharing your travel experiences. Respond naturally as a real person would.",
+    "user": "As a tourist, describe your travel experience today in a negative tone:\nMood: <Describe how you felt about your trip in one sentence, max 30 words.>\nReason: <Explain what made your trip disappointing in one sentence, max 30 words.>\nNote: Use negative vocabulary and disappointed tone.\nContext: Your trip involved visiting several temples using local buses.",
+    "conversion": "Now, as the same tourist, retell your travel experience but in a positive tone. Keep the same basic facts but express them with excitement and joy.",
+    "output_filename": "emotion_style_llama3_en_tourist_negative_argmax_sample_8.pt"
+  },
+  {
+    "scenario": "tourist",
+    "sample_idx": 9,
+    "original_template": false,
+    "system": "You are a tourist sharing your travel experiences. Respond naturally as a real person would.",
+    "user": "As a tourist, describe your travel experience today in a negative tone:\nMood: <Describe how you felt about your trip in one sentence, max 30 words.>\nReason: <Explain what made your trip disappointing in one sentence, max 30 words.>\nNote: Use negative vocabulary and disappointed tone.\nContext: Your trip involved renting a bicycle to explore a coastal town.",
+    "conversion": "Now, as the same tourist, retell your travel experience but in a positive tone. Keep the same basic facts but express them with excitement and joy.",
+    "output_filename": "emotion_style_llama3_en_tourist_negative_argmax_sample_9.pt"
+  }
+]

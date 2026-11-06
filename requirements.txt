@@ -1,0 +1,21 @@
+# Python 3.10; versions recorded in the 2026-11-04 original-protocol replay.
+# Install the matching CUDA build of torch separately (see docs/SETUP.md).
+transformers==4.57.6
+tokenizers==0.22.2
+datasets==2.21.0
+numpy==1.26.4
+scikit-learn==1.7.2
+accelerate
+pandas
+scipy
+tqdm
+matplotlib
+seaborn
+sentencepiece
+protobuf
+python-dotenv
+detoxify
+sentence-transformers
+convokit
+spacy
+bert-score

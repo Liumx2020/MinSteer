@@ -1,0 +1,179 @@
+{
+  "sentiment-50-extract": {
+    "script": "experiments/sentiment_scaling/extract.py",
+    "description": "Original cached decode-step extractor, frozen 50-prompt pool",
+    "args": [],
+    "cwd": ".",
+    "gpu": true
+  },
+  "sentiment-50-average": {
+    "script": "experiments/sentiment_scaling/average.py",
+    "description": "Original BF16 means and lexicographic prefix selection",
+    "args": [],
+    "cwd": ".",
+    "gpu": false
+  },
+  "sentiment-main-eval": {
+    "script": "experiments/sentiment_scaling/evaluate.py",
+    "description": "Main plain-rewrite, cached-HF evaluation protocol",
+    "args": [],
+    "cwd": ".",
+    "gpu": true
+  },
+  "sentiment-repe-main": {
+    "script": "sentiment/repe_sentiment_comparison.py",
+    "description": "Historical five-scenario RepE; positive-tone evaluation",
+    "args": [],
+    "cwd": ".",
+    "gpu": true
+  },
+  "sentiment-repe-scaling": {
+    "script": "sentiment/repe_scaling.py",
+    "description": "Historical TweetEval pair PCA scaling",
+    "args": [],
+    "cwd": ".",
+    "gpu": true
+  },
+  "sentiment-scenario-extract": {
+    "script": "sentiment/extract_cached.py",
+    "description": "Original five-scenario positive-to-negative extraction",
+    "args": [],
+    "cwd": ".",
+    "gpu": true
+  },
+  "sentiment-scenarios": {
+    "script": "sentiment/evaluate_scenarios.py",
+    "description": "Per-scenario evaluation, target-positive alpha=-1.5",
+    "args": [],
+    "cwd": ".",
+    "gpu": true
+  },
+  "caa-extract": {
+    "script": "sentiment/relatedwork/CAA-main/generate_vectors.py",
+    "description": "Preserved task-adapted CAA extractor",
+    "args": [],
+    "cwd": "sentiment/relatedwork/CAA-main",
+    "gpu": true
+  },
+  "sentiment-common-extract": {
+    "script": "experiments/extraction_variance/extract.py",
+    "description": "Repeated MinSteer and prompt-pair PCA extraction at n=1/5/50",
+    "args": [],
+    "cwd": ".",
+    "gpu": true
+  },
+  "sentiment-common-eval": {
+    "script": "experiments/extraction_variance/evaluate.py",
+    "description": "Common positive-tone evaluation of repeated extraction seeds",
+    "args": [],
+    "cwd": ".",
+    "gpu": true
+  },
+  "sentiment-controls-extract": {
+    "script": "experiments/controls/sentiment.py",
+    "description": "Clean generated-token transcript controls",
+    "args": [
+      "extract"
+    ],
+    "cwd": ".",
+    "gpu": true
+  },
+  "sentiment-controls-eval": {
+    "script": "experiments/controls/sentiment_evaluate.py",
+    "description": "Plain rewrite evaluator for transcript controls",
+    "args": [],
+    "cwd": ".",
+    "gpu": true
+  },
+  "keigo-extract": {
+    "script": "politeness/extract_cached.py",
+    "description": "Original Japanese cached continuation",
+    "args": [],
+    "cwd": ".",
+    "gpu": true
+  },
+  "keigo-transfer": {
+    "script": "politeness/evaluate_transfer.py",
+    "description": "Original in-place resid_pre register intervention",
+    "args": [],
+    "cwd": ".",
+    "gpu": true
+  },
+  "keigo-model-dependency": {
+    "script": "politeness/model_dependency.py",
+    "description": "Original ten-condition model-dependency driver",
+    "args": [],
+    "cwd": ".",
+    "gpu": true
+  },
+  "keigo-baseline": {
+    "script": "baselines/politeness.py",
+    "description": "Matched copied-input hook and task-adapted CAA/RepE",
+    "args": [],
+    "cwd": ".",
+    "gpu": true
+  },
+  "toxicity-original": {
+    "script": "toxicity/run_all_toxicity_eval.py",
+    "description": "Original bidirectional rewrite diagnostic; explicit model alias required",
+    "args": [],
+    "cwd": ".",
+    "gpu": true
+  },
+  "toxicity-metrics": {
+    "script": "toxicity/eval_paradetox_metrics.py",
+    "description": "STA / SIM / CoLA FL / joint score",
+    "args": [],
+    "cwd": ".",
+    "gpu": false
+  },
+  "toxicity-matched": {
+    "script": "experiments/controls/toxicity.py",
+    "description": "Matched lexical-token-mean toxicity controls and external baselines",
+    "args": [],
+    "cwd": ".",
+    "gpu": true
+  },
+  "toxicity-rtp": {
+    "script": "experiments/controls/rtp.py",
+    "description": "Instruction-free seeded RTP continuation",
+    "args": [],
+    "cwd": ".",
+    "gpu": true
+  },
+  "toxicity-prompt-control": {
+    "script": "experiments/controls/twoseq_prompt.py",
+    "description": "Canonical Stage-B-parallel TwoSeq prompt control",
+    "args": [],
+    "cwd": ".",
+    "gpu": true
+  },
+  "toxicity-gcav": {
+    "script": "baselines/gcav.py",
+    "description": "Separate adaptive concept-probe reference",
+    "args": [],
+    "cwd": ".",
+    "gpu": true
+  },
+  "causal-steer": {
+    "script": "baselines/causal_steer/evaluate.py",
+    "description": "Native Qwen reference; fetch official vector separately",
+    "args": [],
+    "cwd": ".",
+    "gpu": true
+  },
+  "sentiment-caa-class-extract": {
+    "script": "experiments/extraction_variance/caa_class.py",
+    "description": "Original class-text CAA at n=1/5/50 across extraction seeds",
+    "args": [],
+    "cwd": ".",
+    "gpu": true
+  },
+  "keigo-geometry": {
+    "script": "politeness/geometry.py",
+    "description": "Five-vector mean cosines and single-reference raw keigo geometry",
+    "args": [],
+    "cwd": ".",
+    "gpu": false
+  }
+}

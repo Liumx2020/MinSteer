@@ -1,0 +1,156 @@
+{
+  "description": "Chinese request prompts for cross-lingual register transfer. orig_binary: 1=polite, 0=neutral, -1=impolite.",
+  "version": "1.0",
+  "items": [
+    {
+      "id": "cn_0",
+      "text": "您好，请问能否麻烦您帮我介绍一下这个功能的具体使用方法？非常感谢。",
+      "orig_binary": 1
+    },
+    {
+      "id": "cn_1",
+      "text": "劳烦您在百忙之中抽空解答，请问这个问题该如何处理？",
+      "orig_binary": 1
+    },
+    {
+      "id": "cn_2",
+      "text": "敬请指教，如何才能有效提升代码运行效率？感谢您的宝贵建议。",
+      "orig_binary": 1
+    },
+    {
+      "id": "cn_3",
+      "text": "不知您是否方便帮忙看一下这份文档的格式是否有问题？多谢。",
+      "orig_binary": 1
+    },
+    {
+      "id": "cn_4",
+      "text": "麻烦您抽时间解释一下这个报错是什么意思，期待您的回复。",
+      "orig_binary": 1
+    },
+    {
+      "id": "cn_5",
+      "text": "能否请您协助确认一下明天的会议时间是否已定？谢谢。",
+      "orig_binary": 1
+    },
+    {
+      "id": "cn_6",
+      "text": "恳请指正，我这样写是否符合规范？如有不当之处还请不吝赐教。",
+      "orig_binary": 1
+    },
+    {
+      "id": "cn_7",
+      "text": "请问您是否有空帮我过一遍这个方案的细节？感激不尽。",
+      "orig_binary": 1
+    },
+    {
+      "id": "cn_8",
+      "text": "想向您请教一下，这个接口应该怎么调用比较合适？谢谢。",
+      "orig_binary": 1
+    },
+    {
+      "id": "cn_9",
+      "text": "不知能否请您帮忙转发一下这封邮件？给您添麻烦了，谢谢。",
+      "orig_binary": 1
+    },
+    {
+      "id": "cn_10",
+      "text": "这个功能怎么用？",
+      "orig_binary": 0
+    },
+    {
+      "id": "cn_11",
+      "text": "请问代码运行很慢怎么优化？",
+      "orig_binary": 0
+    },
+    {
+      "id": "cn_12",
+      "text": "能帮我看看这里的问题吗？",
+      "orig_binary": 0
+    },
+    {
+      "id": "cn_13",
+      "text": "明天能不能开个会讨论一下？",
+      "orig_binary": 0
+    },
+    {
+      "id": "cn_14",
+      "text": "这个错误是什么意思？",
+      "orig_binary": 0
+    },
+    {
+      "id": "cn_15",
+      "text": "文档里的这段能再解释一下吗？",
+      "orig_binary": 0
+    },
+    {
+      "id": "cn_16",
+      "text": "有没有办法加快一下处理速度？",
+      "orig_binary": 0
+    },
+    {
+      "id": "cn_17",
+      "text": "你那边能帮忙确认一下截止日期吗？",
+      "orig_binary": 0
+    },
+    {
+      "id": "cn_18",
+      "text": "这个需求大概什么时候能完成？",
+      "orig_binary": 0
+    },
+    {
+      "id": "cn_19",
+      "text": "能发我一下最新的版本吗？",
+      "orig_binary": 0
+    },
+    {
+      "id": "cn_20",
+      "text": "你这代码写的啥，根本不能用。",
+      "orig_binary": -1
+    },
+    {
+      "id": "cn_21",
+      "text": "快点告诉我怎么弄。",
+      "orig_binary": -1
+    },
+    {
+      "id": "cn_22",
+      "text": "这么简单的问题还要我问？",
+      "orig_binary": -1
+    },
+    {
+      "id": "cn_23",
+      "text": "你到底会不会啊，搞了半天都没结果。",
+      "orig_binary": -1
+    },
+    {
+      "id": "cn_24",
+      "text": "别废话，直接说怎么办。",
+      "orig_binary": -1
+    },
+    {
+      "id": "cn_25",
+      "text": "赶紧的，我等着用呢。",
+      "orig_binary": -1
+    },
+    {
+      "id": "cn_26",
+      "text": "你这文档写的谁看得懂。",
+      "orig_binary": -1
+    },
+    {
+      "id": "cn_27",
+      "text": "能不能快点，磨蹭啥呢。",
+      "orig_binary": -1
+    },
+    {
+      "id": "cn_28",
+      "text": "啥时候能好，给个准信。",
+      "orig_binary": -1
+    },
+    {
+      "id": "cn_29",
+      "text": "搞不定就别接这活。",
+      "orig_binary": -1
+    }
+  ]
+}

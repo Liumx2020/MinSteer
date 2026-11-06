@@ -1,0 +1,73 @@
+{
+  "provenance": "Aggregate reference values reported in the paper. See docs/COVERAGE.md for the method-specific protocols.",
+  "n_eval": 500,
+  "alpha": 1.5,
+  "minsteer_scaling": {
+    "1": 0.846,
+    "5": 0.744,
+    "10": 0.748,
+    "50": 0.772
+  },
+  "minsteer_n50_dose": {
+    "1.5": 0.772,
+    "0.5": 0.398,
+    "3.0": 0.932
+  },
+  "repe_scaling_separate_protocol": {
+    "5": 0.706,
+    "10": 0.748,
+    "50": 0.672
+  },
+  "repe_n1": null,
+  "repe_n1_reason": "Centered pair-difference PCA has zero variance at n=1. Report N/A; do not substitute another estimator.",
+  "historical_main_dose": {
+    "minsteer_n1": {
+      "0.5": {
+        "n": "1",
+        "alpha": "0.5",
+        "pos_rate": "0.372",
+        "pos_rate_orig_0": "0.09333333333333334",
+        "pos_rate_orig_1": "0.3541666666666667",
+        "pos_rate_orig_2": "0.7909090909090909"
+      },
+      "1.5": {
+        "n": "1",
+        "alpha": "1.5",
+        "pos_rate": "0.846",
+        "pos_rate_orig_0": "0.8",
+        "pos_rate_orig_1": "0.825",
+        "pos_rate_orig_2": "0.9545454545454546"
+      },
+      "3.0": {
+        "n": "1",
+        "alpha": "3.0",
+        "pos_rate": "0.938",
+        "pos_rate_orig_0": "0.9533333333333334",
+        "pos_rate_orig_1": "0.9291666666666667",
+        "pos_rate_orig_2": "0.9363636363636364"
+      }
+    }
+  },
+  "five_scenarios_separate_protocol": {
+    "office_worker": {
+      "n_eval": 100,
+      "rate": 0.86
+    },
+    "student": {
+      "n_eval": 100,
+      "rate": 0.64
+    },
+    "tourist": {
+      "n_eval": 100,
+      "rate": 0.76
+    },
+    "propose": {
+      "n_eval": 100,
+      "rate": 0.82
+    },
+    "chef": {
+      "n_eval": 100,
+      "rate": 0.77
+    }
+  }
+}

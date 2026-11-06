@@ -1,0 +1,68 @@
+{
+  "layer": 15,
+  "residual_type": "resid_pre",
+  "direction": "casual_minus_formal",
+  "readout": "JP full-sequence FP32 temporal means; EN/CN stored directions",
+  "pca": {
+    "n_vectors": 8,
+    "names": [
+      "JP_v0",
+      "JP_v1",
+      "JP_v2",
+      "JP_v3",
+      "JP_v4",
+      "EN_Swallow",
+      "EN_LLaMA",
+      "CN_Swallow"
+    ],
+    "variance_explained_PC1": 0.4787,
+    "projections_on_PC1": {
+      "JP_v0": -2.94556,
+      "JP_v1": -2.94852,
+      "JP_v2": -2.53065,
+      "JP_v3": -2.12426,
+      "JP_v4": -2.86099,
+      "EN_Swallow": 0.45258,
+      "EN_LLaMA": 0.34069,
+      "CN_Swallow": 1.00724
+    },
+    "sign_consistent": false,
+    "pairwise_cosine": {
+      "JP_v0_JP_v1": 0.92411,
+      "JP_v0_JP_v2": 0.84487,
+      "JP_v0_JP_v3": 0.77291,
+      "JP_v0_JP_v4": 0.88897,
+      "JP_v0_EN_Swallow": 0.27091,
+      "JP_v0_EN_LLaMA": 0.26281,
+      "JP_v0_CN_Swallow": -0.02116,
+      "JP_v1_JP_v2": 0.88813,
+      "JP_v1_JP_v3": 0.81103,
+      "JP_v1_JP_v4": 0.89633,
+      "JP_v1_EN_Swallow": 0.30435,
+      "JP_v1_EN_LLaMA": 0.29553,
+      "JP_v1_CN_Swallow": -0.02544,
+      "JP_v2_JP_v3": 0.84314,
+      "JP_v2_JP_v4": 0.89406,
+      "JP_v2_EN_Swallow": 0.38901,
+      "JP_v2_EN_LLaMA": 0.38118,
+      "JP_v2_CN_Swallow": -0.01145,
+      "JP_v3_JP_v4": 0.82702,
+      "JP_v3_EN_Swallow": 0.43772,
+      "JP_v3_EN_LLaMA": 0.4223,
+      "JP_v3_CN_Swallow": -0.01789,
+      "JP_v4_EN_Swallow": 0.34814,
+      "JP_v4_EN_LLaMA": 0.32691,
+      "JP_v4_CN_Swallow": -0.02139,
+      "EN_Swallow_EN_LLaMA": 0.74801,
+      "EN_Swallow_CN_Swallow": 0.0247,
+      "EN_LLaMA_CN_Swallow": 0.02165
+    },
+    "singular_values": [
+      1.352,
+      1.0981,
+      0.5031,
+      0.4778,
+      0.3674
+    ]
+  }
+}
